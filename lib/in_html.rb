@@ -12,7 +12,7 @@ class In_HTML
     f.puts("<head>\n<meta charset='utf-8'>\n<title>Title</title>\n</head>\n")
     f.puts("<body>\n")
     f.puts("<div>#{content_}</div>\n")
-    f.puts("<body>\n")
+    f.puts("</body>\n")
     f.puts("</html>\n")
     f.close
   end
